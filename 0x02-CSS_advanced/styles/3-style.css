@@ -2,11 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  --text-color: #161616;
+  color: var(--text-color);
 }
 
 a {
-  --text-color: #161616;
+  color: var(--text-color);
 }
 
 .visually-hidden {
@@ -14,11 +14,11 @@ a {
 }
 
 .card-category {
-  --color-primary: #d73953;
+  color: var(--color-primary);
 }
 
 .section-tagline {
-  --color-primary: #d73953;
+  color: var(--color-primary);
 }
 
 :root {
