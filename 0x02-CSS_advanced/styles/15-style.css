@@ -8,12 +8,10 @@
  *behavior of the scroll to be as fluid as possible.
  */
 
-* {
-  box-sizing: border-box;
-}
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
 }
 
 /**
