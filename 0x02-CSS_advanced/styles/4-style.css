@@ -8,7 +8,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-family-base);
+  font-family: "font-family-title";
 }
 body {
   color: var(--text-color);
