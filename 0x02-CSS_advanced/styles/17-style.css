@@ -82,14 +82,14 @@ body {
   color: var(--color-primary);
 }
 .section {
-  padding: var(--section-footer-padding);
+  padding: var(--section-padding);
 }
 /**
        * set the section header align
        */
 .section-header {
   text-align: var(--section-header-align);
-  padding: var(--section-body-padding);
+  padding: var(--section-header-padding);
 }
 .section.body {
   padding: var(--section-body-padding);
@@ -97,6 +97,7 @@ body {
 
 .section-footer {
   padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
 }
 
 /**
@@ -165,9 +166,9 @@ body {
   --section-body-padding: 0 0 3rem;
   --section-footer-padding: 3rem 0 0;
   --section-footer-align: center;
-  --footer-paddiing: 5rem 0 1rem;
+  --footer-padding: 5rem 0 1rem;
 }
 
 .footer {
-  padding: var(--footer-paddiing);
+  padding: var(--footer-padding);
 }
