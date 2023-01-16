@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   color: #161616;
 }
@@ -11,7 +14,7 @@ a {
 }
 
 .card-category {
-  color: #d739d7;
+  color: #d73953;
 }
 
 .section-tagline {
