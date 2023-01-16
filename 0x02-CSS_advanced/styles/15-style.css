@@ -9,10 +9,14 @@
  */
 
 /* universal boxing rule */
+* {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
-  -webkit-text-size-adjust: 100%;
+  --webkit-text-size-adjust: 100%;
   line-height: 1.15;
 }
 
