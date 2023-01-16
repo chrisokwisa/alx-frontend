@@ -8,15 +8,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "font-family-title";
-}
-body {
-  color: var(--text-color);
-  font-family: var(--font-family-base);
+  font-family: var(--font-family-title);
 }
 
 a {
   color: var(--text-color);
+}
+
+body {
+  color: var(--text-color);
+  font-family: var(--font-family-base);
 }
 
 .visually-hidden {
@@ -38,6 +39,6 @@ a {
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
   --text-color: var(--color-black);
-  --font-family-base: Helvetica Neue, Arial, sans-serif, Helvetica;
-  --font-family-title: Helvetica Neue, Arial, sans-serif, Helvetica;
+  --font-family-base: "Helvetica Neue", Arial, sans-serif, Helvetica;
+  --font-family-title: "Helvetica Neue", Arial, sans-serif, Helvetica;
 }
