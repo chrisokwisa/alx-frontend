@@ -1,0 +1,31 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  --text-color: #161616;
+}
+
+a {
+  --text-color: #161616;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.card-category {
+  --color-primary: #d73953;
+}
+
+.section-tagline {
+  --color-primary: #d73953;
+}
+
+:root {
+  --color-primary: #d7d7d7;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);
+}
