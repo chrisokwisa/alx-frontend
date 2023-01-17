@@ -92,14 +92,15 @@ a:active {
   font-size: var(--button-font-size);
   color: var(--button-color);
   text-decoration: var(--button-text-decoration);
-  transition: background-color var(--transition-duration);
 }
 
 .button:hover {
   color: var(--button-hover-color);
   text-decoration: var(--button-hover-text-decoration);
   background-color: var(--button-hover-background);
-  background-color: white;
+  background-color: var(--button-hover-background);
+  transition-duration: var(--transition-duration);
+  transition-property: color, background-color;
 }
 
 body {
@@ -413,9 +414,7 @@ ul.row {
     var(--transition-cubic-bezier);
 }
 
-card-work:hover .card-outer {
+.card-work:hover .card-outer {
   /* Target the card-outer when card-work is hover */
   transform: scale(0.95);
-  transition: transform var(--transition-duration)
-    var(--transition-cubic-bezier);
 }
