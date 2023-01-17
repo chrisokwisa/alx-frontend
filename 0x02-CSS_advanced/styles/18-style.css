@@ -51,11 +51,11 @@ nav .nav-item {
 
 nav .nav-link {
   display: block;
-  padding: calc(var(--nav-item-padding) / 2) var(--nav-item-padding);
+  padding: 0.5rem 1rem;
 }
 
 nav .nav-link {
-  background-color: var(--nav-item-link-hover);
+  color: var(--nav-item-link-hover);
 }
 
 /**
@@ -200,7 +200,7 @@ body {
   --footer-padding: 5rem 0 1rem;
   --nav-item-font-family: var(--font-family-base);
   --nav-item-font-size: var(--font-size-medium);
-  --nav-item-letter-spacing: 4%;
+  --nav-item-letter-spacing: 0.04rem;
   --nav-item-display: inline-block;
   --nav-item-margin: 3rem 0;
   --nav-item-hover: var(--color-primary);
