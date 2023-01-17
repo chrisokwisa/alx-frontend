@@ -309,7 +309,7 @@ ul.row {
 }
 
 .header-logo {
-  position: var(--header-logo-position);
+  position: relative;
 }
 
 .header-logo a {
