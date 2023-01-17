@@ -305,11 +305,11 @@ ul.row {
 }
 
 .header {
-  padding: 4rem 0 0;
+  padding: var(--header-padding);
 }
 
 .header-logo {
-  position: relative;
+  position: var(--header-logo-position);
 }
 
 .header-logo a {
