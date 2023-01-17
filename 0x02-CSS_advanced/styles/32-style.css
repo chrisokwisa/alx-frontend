@@ -370,7 +370,7 @@ ul.row {
   left: -0.1rem;
   right: -0.1rem;
   z-index: 1;
-  transition: var(--transition-duration) var(--transition-cubic-bezier);
+  transition: var(transition-duration) var(-transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner {
@@ -406,10 +406,10 @@ ul.row {
 
 .card-work:hover .card-outer {
   transform: scale(0.95);
-  transform: transform var(--transition-duration) var(--transition-cubic-bezier);
+  transform: transform var(-transition-duration) var(transition-cubic-bezier);
 }
 
 .card-work:hover .card-image {
   transform: scale(1.2);
-  transform: var(--transition-duration) var(--transition-cubic-bezier);
+  transform: var(-transition-duration) var(transition-cubic-bezier);
 }
