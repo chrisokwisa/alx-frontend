@@ -57,7 +57,7 @@ h6 {
   background-color: var(--color-white);
   width: 0;
   height: 0.2rem;
-  transition: var(-–transition-duration) var(--transition-cubic-bezier);
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 .nav .nav-link:hover {
   color: var(--nav-item-link-hover);
@@ -98,6 +98,7 @@ a:active {
 .button:hover {
   color: var(--button-hover-color);
   text-decoration: var(--button-hover-text-decoration);
+  background-color: var(--button-hover-background);
   background-color: white;
 }
 
@@ -370,7 +371,8 @@ ul.row {
   left: -0.1rem;
   right: -0.1rem;
   z-index: 1;
-  transition: var(transition-duration) var(-transition-cubic-bezier);
+  transition: transform var(--transition-duration)
+    var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner {
@@ -404,12 +406,16 @@ ul.row {
   opacity: 1;
 }
 
-.card-work:hover .card-outer {
-  transform: scale(0.95);
-  transform: transform var(-transition-duration) var(transition-cubic-bezier);
+.card-work:hover .card-image {
+  /* Target the card-image when card-work is hover */
+  transform: scale(1.2);
+  transition: transform var(--transition-duration)
+    var(--transition-cubic-bezier);
 }
 
-.card-work:hover .card-image {
-  transform: scale(1.2);
-  transform: var(-transition-duration) var(transition-cubic-bezier);
+card-work:hover .card-outer {
+  /* Target the card-outer when card-work is hover */
+  transform: scale(0.95);
+  transition: transform var(--transition-duration)
+    var(--transition-cubic-bezier);
 }
