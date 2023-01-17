@@ -35,12 +35,10 @@ h6 {
   margin: 0;
   padding: 0;
   text-align: center;
-}
-nav li {
   list-style-type: none;
 }
 
-nav .nav-item {
+.nav .nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
@@ -49,12 +47,12 @@ nav .nav-item {
   margin: var(--nav-item-margin);
 }
 
-nav .nav-link {
+.nav .nav-link {
   display: block;
   padding: 0.5rem 1rem;
 }
 
-nav .nav-link {
+.nav .nav-link {
   color: var(--nav-item-link-hover);
 }
 
